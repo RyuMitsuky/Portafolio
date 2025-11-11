@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #2c3e50 50%, #2c83bd );
+    color: white;
+    text-align: center;
+    padding: 2.5vh;
+}
+
+header h1 {
+    font-size: 4vw;
+    margin-bottom: 0.5vh;
+}
+
+header p {
+    font-size: 2vw;
+}
+
+nav {
+    background: #333;
+    padding: 1.5vh;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 2vw;
+    font-size: 2vw;
+    position: relative;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0.2vh;
+    background: #3498db;
+    bottom: -0.5vh;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.container {
+    max-width: 90vw;
+    margin: 2vh auto;
+    padding: 0 2vw;
+}
+
+section {
+    margin-bottom: 2vh;
+}
+
+section h2 {
+    font-size: 3vw;
+    color: #2c3e50;
+    margin-bottom: 1vh;
+    border-bottom: 0.2vh solid #3498db;
+    display: inline-block;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.about img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 0.2vh solid #3498db;
+    box-shadow: 0 0.4vh 0.5vh rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.4vh 1vh rgba(0,0,0,0.2);
+}
+
+.about p {
+    font-size: 2vw;
+    margin-bottom: 1vh;
+    flex: 1;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5vw;
+    padding-top: 2vw;
+}
+
+.project-card {
+    background: white;
+    border: 2px solid #3498db;
+    border-radius: 3%;
+    padding: 1.5vw;
+    box-shadow: 0 0.4vh 0.5vh rgba(0, 0, 0, 0.322);
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-0.5vh);
+}
+
+.project-card h3 {
+    font-size: 2.2vw;
+    margin-bottom: 0.5vh;
+}
+
+.project-card p {
+    font-size: 1.8vw;
+    margin-bottom: 0.5vh;
+}
+
+.project-card a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5vw;
+    padding-top: 2vw;
+}
+
+.skill {
+    background: #3498db;
+    color: white;
+    padding: 0.5vh 1vw;
+    border-radius: 20vw;
+    font-size: 1.6vw;
+}
+.contact{
+    padding-top: 2vw;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-bottom: 1vh;
+    padding-top: 2vw;
+}
+
+.contact-icons a img {
+    width: 5vw;
+    height: 10vh;
+    transition: transform 0.3s;
+}
+
+.contact-icons a img:hover {
+    transform: scale(1.1);
+}
+
+.contact p {
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 0.5vh;
+}
+
+.contact p a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 2vh;
+}
+
+@media (max-width: 600px) {
+header h1 {
+    font-size: 3.5vw;
+}
+
+nav a {
+    display: block;
+    margin: 0.5vh 0;
+    font-size: 2.5vw;
+}
+
+section h2 {
+    font-size: 3.5vw;
+}
+
+.about {
+    flex-direction: column;
+    align-items: center;
+}
+.about img {
+    width: 25vw;
+    height: 25vw;
+}
+
+.about p {
+    font-size: 2.5vw;
+}
+
+.project-card {
+    border: 0.2vh solid #3498db;
+}
+
+.project-card h3 {
+    font-size: 2.8vw;
+}
+
+.project-card p {
+    font-size: 2vw;
+}
+
+.skill {
+    font-size: 2vw;
+}
+
+.contact h3 {
+    font-size: 3vw;
+}
+
+.contact-icons a img {
+    width: 8vw;
+    height: 4vh;
+}
+
+.contact p {
+    font-size: 2.5vw;
+}
+
+.container {
+    margin: 1vh auto;
+}
+}
