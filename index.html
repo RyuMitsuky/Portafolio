@@ -1,121 +1,181 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio Juan Esteban Velandia Belran</title>
-  <link rel="stylesheet" href="./style/style.css">
+  <title>Juan Esteban Velandia — Dev Portfolio</title>
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-  <header>
-    <h1>Juan Velandia</h1>
-    <p>Desarrollador de software en Formación</p>
-  </header>
 
-  <nav>
-    <a href="#about">Sobre Mí</a>
-    <a href="#projects">Proyectos</a>
-    <a href="#skills">Habilidades</a>
-    <a href="#contact">Contacto</a>
-  </nav>
+<nav>
+  <div class="nav-logo">JEV<span>/dev</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#skills">SKILLS</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+</nav>
 
-  <div class="container">
-    <section id="about" class="about">
-      <h2>Sobre Mí</h2>
-      <img src="./img/me.png" alt="Foto de JuanV">
-      <p> Soy alguien que disfruta aprender y crear. Me apasionan los videojuegos y el diseño, y sueño con poder unir ambos mundos como diseñador de videojuegos.
-        Me gusta entender cómo funcionan las cosas, experimentar con ideas nuevas y transformar conceptos en algo visual y funcional.
-        
-        En mi camino he explorado diferentes áreas de la tecnología:
-        
-        Aprendiendo la lógica con Python,
-        
-        Dando forma y estilo con HTML / CSS,
-        
-        Controlando proyectos con GitHub,
-        
-        Iniciándome en la interactividad con JavaScript,
-        
-        Y manejando datos con MongoDB.
-        
-        Siempre busco seguir mejorando, aprender algo nuevo y encontrar la forma más creativa de expresar lo que imagino.</p>
-    </section>
-
-    <section id="projects" class="projects">
-      <h2>Proyectos</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>Proyecto Python</h3>
-          <p>Repositorio en donde desarrollé un programa en Python para gestionar gastos diarios, con registro, visualización, filtrado y cálculo por categorías (comida, transporte, etc.). Utiliza JSON para almacenar datos y genera reportes en texto. Interfaz de consola intuitiva con menús y tablas visuales, diseñada para simplicidad y usabilidad.</p>
-          <p><a href="https://github.com/RyuMitsuky/Proyecto_Python_VelandiaJuan" target="_blank">Ver Codigo</a></p>
-        </div>
-        <div class="project-card">
-          <h3>Proyecto KarioMedia</h3>
-          <p>Desarrollo de la interfaz del Aplicativo Web para la empresa Kario Media, dedicada a licitaciones públicas y privadas. Proyecto enfocado en replicar el diseño propuesto por el equipo de UI/UX mediante HTML y CSS, manteniendo la estructura y coherencia visual del panel administrativo y sus módulos principales.</p>
-          <p><a href="https://github.com/RyuMitsuky/PROYECTO-FILTRO_VelandiaJuan_CarrilloDavid" target="_blank">Ver codigo</a></p>
-          <p><a href="https://ryumitsuky.github.io/PROYECTO-FILTRO_VelandiaJuan_CarrilloDavid/webHTML/index.html" target="_blank">Ver pagina</a></p>
-       
-        </div>
-        <div class="project-card">
-          <h3>Lms Portal</h3>
-          <p>Desarrollo de un prototipo de plataforma LMS (Learning Management System) para la gestión de docentes, cursos, módulos y lecciones. Implementado con HTML, CSS y JavaScript, con persistencia de datos en localStorage y autenticación básica por correo y contraseña. Enfocado en una interfaz moderna, intuitiva y de fácil uso para la comunidad educativa.</p>
-          <p><a href="https://github.com/GustavoAdolfoNavarroPacheco/PROYECTO-FILTRO_NavarroGustavo_VelandiaJuan" target="_blank">Ver Código</a></p>
-          <p><a href="https://gustavoadolfonavarropacheco.github.io/PROYECTO-FILTRO_NavarroGustavo_VelandiaJuan/" target="_blank">Ver pagina</a></p>
-
-        </div>
-        <div class="project-card">
-          <h3>Campus Music</h3>
-          <p>Diseño e implementación de la solución de datos para Campus Music en MongoDB: definición de colecciones con validación ($jsonSchema) e índices, poblamiento con dataset realista, consultas analíticas con aggregations, roles y permisos (db.createRole), y transacciones para el proceso de inscripción y actualización de cupos. Estructurado en db_config.js, test_dataset.js, aggregations.js, roles.js, transactions.js y README.md.</p>
-          <p><a href="https://github.com/Rene018/Proyecto_MongoDB2_VillazonRene_PabonWillian_VelandiaJuan" target="_blank">Ver Código</a></p>
-        </div>
-      </div>
-
-    </section>
-
-    <section id="skills" class="skills">
-      <h2>Habilidades</h2>
-      <div class="skills-list">
-        <span class="skill">HTML</span>
-        <span class="skill">CSS</span>
-        <span class="skill">Scrum</span>
-        <span class="skill">Python (Básico)</span>
-        <span class="skill">github</span>
-        <span class="skill">JavaScript(basico)</span>
-        <span class="skill">MongoDB(intermedio)</span>
-        <span class="skill">Inteligencia Emocional</span>
-        <span class="skill">Análisis Emocional</span>
-        <span class="skill">Habilidades Sociales</span>
-        
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <h2>Conéctate conmigo</h2>
-      <div class="contact-icons">
-        <a href="https://www.linkedin.com/in/juan-esteban-velandia-7b98a12a2/" target="_blank">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
-        </a>
-        <a href="https://instagram.com/RyuMitsuky/" target="_blank">
-          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram">
-        </a>
-        <a href="https://wa.me/573177334411" target="_blank">
-          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="WhatsApp">
-        </a>
-        <a href="https://github.com/RyuMitsuky" target="_blank">
-          <img src="https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/GitHub.svg" alt="GitHub">
-        </a>
-        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=juanbeltran.87.jfk@gmail.com.com&su=Hi,+dear+Juan.&body=I+want+to+contact+you+to%E2%80%A6" target="_blank">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/gmail.svg" alt="Gmail">
-        </a>
-      </div>
-      <p>
-        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=juanbeltran.87.jfk@gmail.com&su=Hi,+dear+Johan.&body=I+want+to+contact+you+to%E2%80%A6" target="_blank"><b>Juanbeltran.87.jfk@gmail.com</b></a>
-      </p>
-    </section>
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="glow" style="top:-100px;right:-100px;"></div>
+  <div class="hero-content">
+    <div class="hero-tag">AVAILABLE FOR HIRE</div>
+    <h1>Juan Esteban<span class="name-accent">Velandia Beltrán</span></h1>
+    <p class="hero-subtitle">Desarrollador Junior orientado a backend, con experiencia en APIs REST, bases de datos relacionales y no relacionales, y herramientas modernas de desarrollo. Listo para aportar desde el primer día en equipos internacionales.</p>
+    <div class="hero-badges">
+      <span class="badge">Spring Boot</span>
+      <span class="badge">Java 17</span>
+      <span class="badge">Python</span>
+      <span class="badge">MongoDB</span>
+      <span class="badge">MySQL</span>
+      <span class="badge">JWT · REST API</span>
+      <span class="badge">Git & GitHub</span>
+      <span class="badge">Scrum</span>
+    </div>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn-primary">VER PROYECTOS</a>
+      <a href="#contact" class="btn-outline">CONTACTAR</a>
+    </div>
   </div>
+  <div class="hero-photo-wrap">
+    <img src="Profile/foto_sin_bordes.jpg" alt="Juan Esteban Velandia">
+  </div>
+  <div class="hero-scroll">SCROLL</div>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Juan Velandia. Todos los derechos reservados.</p>
-  </footer>
+<section id="about">
+  <div class="section-label">SOBRE MÍ</div>
+  <h2>¿Quién soy?</h2>
+  <div class="about-grid">
+    <div class="about-text fade-in">
+      <p>Soy un desarrollador junior en formación con <strong>Campuslands</strong>, apasionado por construir soluciones backend robustas y bien documentadas. Me especializo en arquitecturas en capas, APIs REST seguras y manejo de datos.</p>
+      <p>Tengo experiencia práctica con <strong>Spring Boot, Java, Python y bases de datos SQL/NoSQL</strong>. Me adapto rápido a nuevos entornos y disfruto resolver problemas reales con código limpio.</p>
+      <p>Busco oportunidades internacionales donde crecer técnicamente mientras aporto valor real desde el primer día. Inglés B1 funcional.</p>
+    </div>
+    <div class="about-stats fade-in">
+      <div class="stat-card"><div class="stat-number">4+</div><div class="stat-label">Proyectos completos entregados</div></div>
+      <div class="stat-card"><div class="stat-number">8+</div><div class="stat-label">Tecnologías manejadas</div></div>
+      <div class="stat-card"><div class="stat-number">B1</div><div class="stat-label">Nivel de inglés</div></div>
+      <div class="stat-card"><div class="stat-number">2025</div><div class="stat-label">En formación activa</div></div>
+    </div>
+  </div>
+</section>
 
+<section id="skills">
+  <div class="section-label">STACK TÉCNICO</div>
+  <h2>Habilidades</h2>
+  <div class="skills-grid fade-in">
+    <div class="skill-group">
+      <div class="skill-group-title">BACKEND</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Java 17</span><span class="skill-tag">Spring Boot</span><span class="skill-tag">Spring Security</span><span class="skill-tag">JWT</span><span class="skill-tag">JPA / Hibernate</span><span class="skill-tag">Python</span><span class="skill-tag">REST API</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">BASES DE DATOS</div>
+      <div class="skill-tags">
+        <span class="skill-tag">MySQL</span><span class="skill-tag">MariaDB</span><span class="skill-tag">MongoDB</span><span class="skill-tag">JSON</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">FRONTEND & TOOLS</div>
+      <div class="skill-tags">
+        <span class="skill-tag">HTML + CSS</span><span class="skill-tag">JavaScript</span><span class="skill-tag">Git</span><span class="skill-tag">GitHub</span><span class="skill-tag">Swagger</span><span class="skill-tag">Lombok</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">METODOLOGÍAS</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Scrum</span><span class="skill-tag">Git Flow</span><span class="skill-tag">Arquitectura en capas</span><span class="skill-tag">MVC</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="section-label">TRABAJO</div>
+  <h2>Proyectos</h2>
+  <div class="projects-grid">
+
+    <div class="project-card fade-in">
+      <div class="project-number">01 — BACKEND</div>
+      <div class="project-title">LogiTrack API</div>
+      <p class="project-desc">API REST para gestión de inventario y logística empresarial. Implementa autenticación segura con JWT, arquitectura en capas (Controller / Service / Repository), documentación interactiva con Swagger y manejo global de excepciones.</p>
+      <div class="project-tech"><span class="tech-tag">Java 17</span><span class="tech-tag">Spring Boot 3.5</span><span class="tech-tag">Spring Security</span><span class="tech-tag">JWT</span><span class="tech-tag">MariaDB</span><span class="tech-tag">Swagger</span></div>
+      <div class="project-links">
+        <a href="https://github.com/RyuMitsuky/Proyecto_logitrack" target="_blank" class="project-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>Backend
+        </a>
+        <a href="https://github.com/RyuMitsuky/BackEnd_LogiTrack" target="_blank" class="project-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>Frontend
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card fade-in">
+      <div class="project-number">02 — DATABASE</div>
+      <div class="project-title">MongoDB API</div>
+      <p class="project-desc">API REST construida sobre MongoDB con arquitectura limpia y operaciones CRUD completas. Demuestra dominio de bases de datos no relacionales, modelado de documentos y consultas eficientes en colecciones.</p>
+      <div class="project-tech"><span class="tech-tag">MongoDB</span><span class="tech-tag">REST API</span><span class="tech-tag">JSON</span><span class="tech-tag">Node.js</span></div>
+      <div class="project-links">
+        <a href="https://github.com/RyuMitsuky/ExamenVelandia" target="_blank" class="project-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>Repositorio
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card fade-in">
+      <div class="project-number">03 — PYTHON</div>
+      <div class="project-title">Simulador de Gastos Diarios</div>
+      <p class="project-desc">Aplicación de terminal para registrar y clasificar gastos personales. Genera reportes diarios, semanales y mensuales con visualización en tabla. Incluye persistencia en JSON y documentación completa en GitHub.</p>
+      <div class="project-tech"><span class="tech-tag">Python 3</span><span class="tech-tag">JSON</span><span class="tech-tag">Tabulate</span><span class="tech-tag">CLI</span></div>
+      <div class="project-links">
+        <a href="https://github.com/RyuMitsuky/Proyecto_Python_VelandiaJuan" target="_blank" class="project-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>Repositorio
+        </a>
+        <a href="https://youtu.be/9O2drgLstVg" target="_blank" class="project-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>Demo Video
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card fade-in">
+      <div class="project-number">04 — FRONTEND</div>
+      <div class="project-title">JavaScript Projects</div>
+      <p class="project-desc">Colección de proyectos en JavaScript vanilla que demuestran dominio de manipulación del DOM, lógica de programación, eventos y estructuras de datos. Base sólida para desarrollo frontend.</p>
+      <div class="project-tech"><span class="tech-tag">JavaScript</span><span class="tech-tag">HTML5</span><span class="tech-tag">CSS3</span><span class="tech-tag">DOM</span></div>
+      <div class="project-links">
+        <a href="https://github.com/RyuMitsuky/JavaScript" target="_blank" class="project-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>Repositorio
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-label">CONTACTO</div>
+  <h2>Hablemos.</h2>
+  <div class="contact-inner fade-in">
+    <p class="contact-desc">Estoy disponible para oportunidades laborales internacionales, proyectos freelance o simplemente conectar con personas del mundo tech. No dudes en escribirme.</p>
+    <div class="contact-links">
+      <a href="mailto:juanbeltran.87.jfk@gmail.com" class="contact-item"><span class="contact-item-label">EMAIL</span><span class="contact-item-value">juanbeltran.87.jfk@gmail.com</span></a>
+      <a href="https://www.linkedin.com/in/juan-esteban-velandia-7b98a12a2/" target="_blank" class="contact-item"><span class="contact-item-label">LINKEDIN</span><span class="contact-item-value">juan-esteban-velandia-7b98a12a2</span></a>
+      <a href="https://github.com/RyuMitsuky" target="_blank" class="contact-item"><span class="contact-item-label">GITHUB</span><span class="contact-item-value">github.com/RyuMitsuky</span></a>
+      <a href="https://github.com/RyuMitsuky/Portafolio" target="_blank" class="contact-item"><span class="contact-item-label">PORTAFOLIO</span><span class="contact-item-value">github.com/RyuMitsuky/Portafolio</span></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-text"><span class="footer-dot"></span>DISPONIBLE PARA TRABAJAR · 2025</div>
+  <div class="footer-text">JUAN ESTEBAN VELANDIA BELTRÁN</div>
+</footer>
+
+<script src="Main/java.js"></script>
 </body>
 </html>
